@@ -616,13 +616,8 @@ menu:active{
     gap: 8px ;
 }
 .form-label{
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    color:rgba(142, 143, 153, 1);
-    font-size:12px;
-    line-height: 14px;
-    letter-spacing: 0.04em;
+    
+    position: relative;
 }
 .checkbox-label{
     
@@ -636,7 +631,12 @@ menu:active{
 }
 .form-box{
     display: flex;
-    position: relative;
+    flex-direction: column;
+    gap: 4px;
+    color:rgba(142, 143, 153, 1);
+    font-size:12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
 }
 .checkbox{
     margin-right: 8px;
