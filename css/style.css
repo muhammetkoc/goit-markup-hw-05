@@ -93,7 +93,7 @@ ol, ul  {
     gap: 40px;
 }
 .menu-list-item{
-    padding: 24px 0;
+    padding: 0;
 }
 .menu-list{
     display: block;
@@ -697,6 +697,7 @@ menu:active{
 input[type="checkbox"]:checked + label .form-check-span {
     background-color: #404bbf;
     border: none;
+    fill: #F4F4FD;
 }
 
 .check-link{
