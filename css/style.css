@@ -703,6 +703,9 @@ menu:active{
     margin-bottom: 8px;
     /**/
 }
+.form-box-tex{
+    margin-bottom: 16px;
+}
 .checkbox{
     margin-right: 8px;
 }
