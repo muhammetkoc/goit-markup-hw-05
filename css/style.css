@@ -694,13 +694,9 @@ menu:active{
     justify-content: center;
     fill: transparent;
 }
-input[type="checkbox"]:checked ~ .form-check-span {
+input[type="checkbox"]:checked + label .form-check-span {
     background-color: #404bbf;
     border: none;
-}
-
-input[type="checkbox"]:checked ~ .form-check-span .check-svg {
-    fill: #F4F4FD;
 }
 
 .check-link{
