@@ -507,11 +507,6 @@ menu:active{
     justify-content: center;
     align-items:baseline;
 }
-.footer-form{
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-}
 .footer-input{
     border: 1px solid #FFFFFF;
     color: #ffffff;
@@ -726,7 +721,7 @@ menu:active{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
     
 }
-.form-input:focus{
+.form-input:focus .form-box-svg{
     fill: #4D5AE5;
 }
 .popup-blue-btn{
