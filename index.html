@@ -400,7 +400,7 @@
             <p class="poup-header-content">
                 Leave your contacts and we will call you back
             </p>
-            <form  name="popup-form" autocomplete="off" class="footer-form">
+            <form  name="popup-form" autocomplete="off" class="popup-form">
                 <div class="form-box">
                     <label for="user-name" class="form-label">Name</label>
                         <div class="form-box-content">
@@ -428,21 +428,26 @@
                             </svg>
                         </div>
                  </div>
+                 <div class="form-box">
+                    <label for="user-comment" class="form-label">Comment</label>
+                        <div class="form-box-content">
+                            <textarea name="user-comment" class="form-textarea" placeholder="Text input" id="user-comment"></textarea>
+                        </div>
+                 </div>
+                 <div class="form-check">
+                    <input type="checkbox" value="true" name="user-privacy" id="user-privacy" class="checkbox">
+                    <label for="user-privacy" class="form-check-label">
+                        I accept the terms and conditions of the
+                        <span class="form-check-span">
+                            <svg width="10" height="8" class="check-svg">
+                                <use href="./images/icons.svg#icon-letter"></use>
+                            </svg>
+                        </span>
+                    </label>
+                 </div>
                  
             </form>
             <div class="popup-content">
-                <div class="form-box">
-                    <label for="comment" class="form-label">
-                        Comment     
-                            <textarea name="comment" class="form-textarea" placeholder="Text input" id="comment"></textarea>                      
-                    </label>
-                </div>
-                <div class="form-box">
-                <label for="check" class="form-label checkbox-label">        
-                        <input type="checkbox" name="check" id="check" class="checkbox">
-                    I accept the terms and conditions of the  <a href="" class="popup-link"> Privacy Policy</a>                   
-                </label>
-                </div>
                 <div class="form-box form-btn">
                     <button type="submit" class="popup-blue-btn">Send</button>
                 </div>
